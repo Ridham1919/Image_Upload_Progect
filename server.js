@@ -80,4 +80,4 @@ app.post("/upload", upload.single("file"), async (req, res) => {
 });
 
 // ❌ app.listen() hata do
-module.exports = app;
+export default app;
